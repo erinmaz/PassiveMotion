@@ -1,4 +1,4 @@
-<PsychoPy2experiment version="1.80.06" encoding="utf-8">
+<PsychoPy2experiment version="1.82.00" encoding="utf-8">
   <Settings>
     <Param name="Show mouse" val="False" valType="bool" updates="None"/>
     <Param name="Data filename" val="u'data' + os.path.sep + '%s_%s' %(expInfo['participant'], expInfo['date'])" valType="code" updates="None"/>
@@ -13,7 +13,7 @@
     <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
     <Param name="Save wide csv file" val="True" valType="bool" updates="None"/>
     <Param name="Save psydat file" val="True" valType="bool" updates="None"/>
-    <Param name="expName" val="test" valType="str" updates="None"/>
+    <Param name="expName" val="PM" valType="str" updates="None"/>
     <Param name="logging level" val="exp" valType="code" updates="None"/>
     <Param name="blendMode" val="avg" valType="str" updates="None"/>
     <Param name="Save excel file" val="False" valType="bool" updates="None"/>
@@ -74,7 +74,7 @@
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="red" valType="str" updates="constant"/>
         <Param name="text" val="+" valType="str" updates="constant"/>
-        <Param name="stopVal" val="35" valType="code" updates="constant"/>
+        <Param name="stopVal" val="36" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
         <Param name="flip" val="" valType="str" updates="constant"/>
@@ -96,7 +96,7 @@
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="red" valType="str" updates="constant"/>
         <Param name="text" val="+" valType="str" updates="constant"/>
-        <Param name="stopVal" val="35" valType="code" updates="constant"/>
+        <Param name="stopVal" val="36" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
         <Param name="flip" val="" valType="str" updates="constant"/>
@@ -118,7 +118,7 @@
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="green" valType="str" updates="constant"/>
         <Param name="text" val="+" valType="str" updates="constant"/>
-        <Param name="stopVal" val="35" valType="code" updates="constant"/>
+        <Param name="stopVal" val="36" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
         <Param name="flip" val="" valType="str" updates="constant"/>
@@ -214,11 +214,13 @@
     <LoopInitiator loopType="TrialHandler" name="trials_2">
       <Param name="conditionsFile" val="" valType="str" updates="None"/>
       <Param name="name" val="trials_2" valType="code" updates="None"/>
+      <Param name="isTrials" val="True" valType="bool" updates="None"/>
       <Param name="random seed" val="" valType="code" updates="None"/>
       <Param name="loopType" val="sequential" valType="str" updates="None"/>
       <Param name="nReps" val="4" valType="code" updates="None"/>
       <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
       <Param name="conditions" val="None" valType="str" updates="None"/>
+      <Param name="Selected rows" val="" valType="code" updates="None"/>
     </LoopInitiator>
     <Routine name="trial"/>
     <Routine name="rest"/>

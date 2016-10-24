@@ -15,12 +15,12 @@ from numpy import sin, cos, tan, log, log10, pi, average, sqrt, std, deg2rad, ra
 from numpy.random import random, randint, normal, shuffle
 import os  # handy system and path functions
 
-startrest=35
-blockrest=35
-numflashes=280 
+startrest=36
+blockrest=36
+numflashes=288 
 
 # Store info about the experiment session
-expName = 'None'  # from the Builder filename that created this script
+expName = 'VS-PM'  # from the Builder filename that created this script
 expInfo = {u'session': u'001', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel

@@ -15,12 +15,12 @@ from numpy import sin, cos, tan, log, log10, pi, average, sqrt, std, deg2rad, ra
 from numpy.random import random, randint, normal, shuffle
 import os  # handy system and path functions
 
-startrest=49
-blockrest=42
-numflashes=336 
+startrest=36
+blockrest=36
+numflashes=288 
 
 # Store info about the experiment session
-expName = 'None'  # from the Builder filename that created this script
+expName = 'VS'  # from the Builder filename that created this script
 expInfo = {u'session': u'001', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
@@ -49,7 +49,7 @@ win = visual.Window(size=(1024,768), fullscr=True, screen=0, allowGUI=False, all
 # Initialize components for Routine "Instructions"
 InstructionsClock = core.Clock()
 instructions = visual.TextStim(win=win, ori=0, name='instructions',
-    text=u"Stay as still as possible\n\nKeep your eyes on the '+'  \n\nKeep your hands relaxed \n\nA checkerboard will flash on the screen \n\n",
+    text=u"Stay as still as possible\n\nKeep your eyes on the '+'  \n\nA checkerboard will flash on the screen",
     font=u'Arial',
     pos=[0, 0], height=0.1, wrapWidth=None,
     color=u'white', colorSpace=u'rgb', opacity=1,
@@ -294,7 +294,7 @@ for thisComponent in fixComponents:
         thisComponent.setAutoDraw(False)
 
 # set up handler to look after randomisation of conditions etc
-trials_2 = data.TrialHandler(nReps=3, method=u'sequential', 
+trials_2 = data.TrialHandler(nReps=4, method=u'sequential', 
     extraInfo=expInfo, originPath=None,
     trialList=[None],
     seed=None, name='trials_2')
